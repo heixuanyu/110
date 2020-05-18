@@ -1,0 +1,5 @@
+<!-- pages/component/myChannelInput/myChannelInput.wxml -->
+<view class="myChannelInput">
+    <text class="myChannelInput01">{{tit}}</text>
+    <input type="{{type}}" value="" placeholder="{{pHolder}}" placeholder-class="myChannelInputPlaceholder" class="myChannelInput02" confirm-type="next"/>
+</view>

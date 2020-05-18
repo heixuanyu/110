@@ -1,0 +1,45 @@
+<!-- pages/memberReview/memberReview.wxml -->
+<view id="memberReview" class="memberReview">
+    <!-- 个人简介start -->
+    <view class="mR_preson">
+        <view class="mR_preson_img">img</view>
+        <view class="mR_person_contain">
+            <view class="mR_person_contain_name">
+                <text>刘嘉玲</text>
+                <text>销售经理</text>
+            </view>
+            <view class="mR_person_job">执业编号： LA010ABC</view>
+        </view>
+    </view>
+    <!-- 个人简介end -->
+    <!-- form  start -->
+    <view class="mR_form">
+    
+        <form action="#">
+            <view class="section lian_form_input">
+                <view class="section__title lian_form_input_key">隶属公司：</view>
+                <input name="input" value="利安人寿营业部" class="lian_form_input_value" />
+            </view>
+            <view class="section lian_form_input">
+                <view class="section__title lian_form_input_key">手机号码：</view>
+                <input name="input" value="18854545456" class="lian_form_input_value" />
+            </view>
+            <view class="section lian_form_input">
+                <view class="sectiontitle lian_form_input_key">性  别：</view>
+                <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+                    <view class="picker lian_form_input_value">{{array[index]}}</view>
+                </picker>
+            </view>
+        </form>
+    </view>
+    <!-- form end -->
+
+<!-- 按钮start -->
+<view class="lian_value">
+<button type="submit" class="lian_value_sub">打回</button>
+<button type="submit" class="lian_value_sub">通过</button>
+</view>
+
+<!-- 按钮end -->
+
+</view>

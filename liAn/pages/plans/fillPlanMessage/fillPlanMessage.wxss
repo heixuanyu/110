@@ -1,0 +1,264 @@
+/* pages/fillPlanMessage/fillPlanMessage.wxss */
+
+page {
+    background-color: #EFEFEF;
+}
+
+.fill-plan-message {
+    /* border: 1px solid rebeccapurple; */
+    width: 100vw;
+    height: 240rpx;
+    background: linear-gradient(to right, #E65326, #FB9654);
+    position: relative;
+    box-shadow: 0pt 2pt 20pt 0pt rgba(133, 41, 14, 0.15);
+}
+
+.fill-plan-message01 {
+    width: 678rpx;
+    border-radius: 16rpx;
+    background-color: #ffffff;
+    margin-left: 32rpx;
+    position: absolute;
+    top: 112rpx;
+}
+
+.fill-plan-message02 {
+    height: 198rpx;
+    /* background-color: tomato; */
+    /* border-bottom: 1rpx solid #eeeeee; */
+    box-sizing: border-box;
+    display: flex;
+}
+
+.fill-plan-message02Img {
+    width: 192rpx;
+    /* background-color: yellowgreen; */
+    height: 100%;
+    position: relative;
+}
+
+.fill-plan-message02Img01 {
+    height: 128rpx;
+    width: 128rpx;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: slateblue;
+    margin-left: 32rpx;
+}
+
+.fill-plan-message02Contain {
+    flex: 1;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.fill-plan-message02Contain01 {
+    font-size: 34rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #111111;
+    line-height: 48rpx;
+    padding-top: 46rpx;
+}
+
+.fill-plan-message02Contain02 {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    line-height: 54rpx;
+}
+
+.fill-plan-message02Contain03 {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    line-height: 36rpx;
+}
+
+.insured-information01 {
+    width: 690rpx;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.insured-information {
+    width: 626rpx;
+    margin: 0 auto;
+}
+
+.insured-information>.insured-informationTit {
+    font-size: 32rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #1f1f1f;
+    line-height: 44rpx;
+    padding-top: 24rpx;
+    margin-top: 32rpx;
+}
+
+.insured-information>.insured-information-input {
+    /* margin-left: 32rpx; */
+    width: 100%;
+    display: flex;
+    /* height: 108rpx; */
+    line-height: 108rpx;
+    border-bottom: 1rpx solid #d9d9d9;
+    align-items: center;
+}
+
+.insured-information>.insured-information-input>.insured-information-input-head {
+    width: 222rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #626262;
+    padding-left: 20rpx;
+}
+
+.insured-information>.insured-information-input>input {
+    flex: 1;
+    /* background-color: red; */
+}
+
+.insured-information>.insured-information-input>picker {
+    flex: 1;
+    /* background-color: red; */
+}
+
+.insured-information-input-picker>text:first-child {
+    background-color: tomato;
+}
+
+.insured-information-input-head-placeholder {
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #d9d9d9;
+}
+
+
+/* radio start */
+
+.ui-radio radio,
+.ui-radio checkbox {
+    display: none;
+}
+
+.label {
+    margin-left: 0rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.ui-radio {
+    border: 1rpx solid #D9D9D9;
+    border-radius: 8rpx;
+    width: 84rpx;
+    height: 40rpx;
+    text-align: center;
+    margin: 10rpx 34rpx 10rpx 0rpx;
+    white-space: nowrap;
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #b9b9b9;
+    line-height: 40rpx;
+}
+
+.ui-radio.active {
+    background: #e55024;
+    border-radius: 8rpx;
+    border: 1px solid #e55024;
+    width: 84rpx;
+    height: 40rpx;
+    text-align: center;
+    margin: 10rpx 34rpx 10rpx 0rpx;
+    white-space: nowrap;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 40rpx;
+}
+
+
+/* 
+.text {
+    color: #000;
+    line-height: 70rpx;
+    font-size: 14px;
+}
+
+.ui-radio.active .text {
+    color: #fff;
+    line-height: 70rpx;
+    font-size: 14px;
+} */
+
+
+/* radio end */
+
+.fillPlanMessageFoot {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height: 100rpx;
+    align-items: center;
+}
+
+.fillPlanMessageFoot>.fillPlanMessageFootBtn>button {
+    width: 220rpx;
+    height: 72rpx;
+    background: #e55024;
+    border-radius: 8rpx;
+    font-size: 32rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #ffffff;
+    line-height: 72rpx;
+}
+
+.fillPlanMessageFootmoney {
+    padding-left: 32rpx;
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #808080;
+    line-height: 34rpx;
+}
+
+.fillPlanMessageFootmoney>text {
+    font-size: 36rpx;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #e55024;
+    line-height: 50rpx;
+    padding-left: 32rpx;
+    padding-right: 10rpx;
+}
+
+.fillPlanMessageFootBtn {
+    padding-right: 24rpx;
+}
+
+/* 选择picker地址 */
+.insured-information-input-picker {
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #626262;
+    line-height: 40rpx;
+}

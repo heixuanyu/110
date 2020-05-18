@@ -1,0 +1,9 @@
+<!-- pages/component/termsListInput/termsListInput.wxml -->
+<view class="termsListInput">
+    <view class="termsListInput01">
+        <view class="termsListInputTit">{{termsListInputTit}}</view>
+        <view class="termsListInputIcon">
+            <i class="iconfont {{icon}}"></i>
+        </view>
+    </view>
+</view>

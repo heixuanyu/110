@@ -1,0 +1,179 @@
+page {
+  background: #2E418D;
+}
+.messageBox {
+  margin:0 36rpx 0 36rpx;
+  background: #fff;
+  position: relative;
+  border-radius: 0 0 16rpx 16rpx;
+}
+.lineBox {
+  background: #E4D2A7;
+  height: 16rpx;
+  border-radius: 16rpx 16rpx 0 0;
+  margin:120rpx 36rpx 0 36rpx;
+}
+.mineAvatar {
+  position: absolute;
+  width:100%;
+  top:-68rpx;
+  display: block;
+  text-align: center;
+}
+.imgStyle {
+  width:136rpx;
+  height:136rpx;
+  display: block;
+  margin:0 auto;
+  border-radius: 50%;
+  border:10rpx solid #fff;
+}
+.nameContainer {
+  padding-top: 70rpx;
+}
+.nameBox {
+  display: flex;
+  align-items: center;
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+  height: 86rpx;
+  border-bottom:2rpx solid #EEEEEE;
+  margin-left: 48rpx;
+  margin-right: 48rpx;
+  font-size: 28rpx;
+}
+.leftName {
+  width: 35%;
+  line-height: 40rpx;
+  display: flex;
+  align-items: center;
+}
+.iconBox {
+  width:32rpx;
+  height: 32rpx;
+  border:2rpx solid #2e418d;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.icon-huodong {
+  color:#2E418D;
+  font-size: 20rpx;
+}
+.textName {
+  color:#808080;
+  margin-left: 30rpx;
+}
+.rightName {
+  color:#111111;
+  line-height: 40rpx;
+}
+.personalMedal {
+  margin-top: 32rpx;
+}
+.medalBox {
+  display: flex;
+  align-items: center;
+  margin-left: 36rpx;
+}
+.medalLeftBox {
+  width:8rpx;
+  height: 32rpx;
+  background: linear-gradient(#e4d2a7 0%, #2e418d);
+}
+.medalText {
+  color: #fff;
+  font-size: 36rpx;
+  line-height: 50rpx;
+  margin-left: 20rpx;
+  letter-spacing: 2rpx;
+}
+.sixBox, .sixBox:before, .sixBox:after{
+  width: 174rpx;
+  height: 100rpx;
+  background: radial-gradient(#442412, #442412 55%, #1d110a);
+}
+/* 制作六边形 */
+.sixBox{
+  margin-top: 96rpx;
+  display: inline-block;
+  transition: transform 1s;
+  margin-left: 64rpx;
+  margin-bottom: 80rpx;
+}
+.sixBox:before{
+  content: "";
+  display: block;
+  position: absolute;
+  transform: rotate(60deg)
+}
+.sixBox:after{
+  content: "";
+  display: block;
+  position: absolute;
+  transform: rotate(-60deg)
+}
+/* 关于我部分 */
+.aboutMe {
+  background: #fff;
+  margin-left: 36rpx;
+  margin-right: 36rpx;
+  border-radius: 16rpx;
+  box-shadow: 0 2rpx 40rpx 0 rgba(0,0,0,0.1);
+}
+.aboutTitle {
+  padding-left: 28rpx;
+  font-size: 36rpx;
+  line-height: 74rpx;
+  color:#2E418D;
+  border-bottom: 2rpx solid  #EEEEEE;
+}
+.aboutText {
+  margin-left: 32rpx;
+  margin-right: 32rpx;
+  color:#626262;
+  font-size: 28rpx;
+  line-height: 48rpx;
+  font-weight: 400;
+  padding-top: 22rpx;
+  padding-bottom: 26rpx;
+}
+/* 工作经历部分 */
+.workExperience {
+  margin-top: 48rpx;
+}
+.workList {
+  line-height: 88rpx;
+  font-size: 28rpx;
+  padding-left: 32rpx;
+  padding-right: 32rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.workList:nth-last-child(1) {
+  border-bottom: none;
+}
+.joinTime {
+  color:#808080;
+  margin-right: 80rpx;
+}
+.timeText {
+  color:#111111;
+}
+.editBox {
+  margin-left: 36rpx;
+  margin-right: 36rpx;
+  background: hsl(42, 53%, 77%);
+  border-radius: 8rpx;
+}
+.editBtn {
+  margin-top: 48rpx;
+  margin-bottom: 74rpx;
+  border-radius: 0rpx;
+  background: none;
+  color:#9A6623;
+  font-size: 36rpx;
+  font-weight: 400;
+}
+
+

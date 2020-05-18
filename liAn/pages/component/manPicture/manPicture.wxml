@@ -1,0 +1,8 @@
+<!-- pages/component/manPicture/manPicture.wxml -->
+<view class="manPicture">
+    <text class='star'>*</text>
+    <text class="manPicture01">人员照片</text>
+     <image bindtap="myPicture" class="myPictureChoose {{myPictureChoose01}}" src="{{tempFilePaths}}" mode="aspecFit"></image>
+    <view class="manPictureAdd" bindtap="myPicture"><i class="iconfont icon-zengjia" ></i>
+    </view> 
+</view>

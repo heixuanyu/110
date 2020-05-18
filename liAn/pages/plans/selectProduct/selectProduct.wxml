@@ -1,0 +1,28 @@
+<!-- pages/selectProduct/selectProduct.wxml -->
+<select-productinput></select-productinput>
+<view class="selectProductTab">
+    <ul class="selectProductTabUl">
+        <li class="selectProductTabLi selectProductTabLi01">热销</li>
+        <li class="selectProductTabLi selectProductTabLi02">意外险</li>
+        <li class="selectProductTabLi selectProductTabLi02">医疗险</li>
+        <li class="selectProductTabLi selectProductTabLi02">重疾险</li>
+        <li class="selectProductTabLi selectProductTabLi02">寿险</li>
+        <li class="selectProductTabLi selectProductTabLi02">分红险</li>
+    </ul>
+</view>
+<view class="selectProductTabPartbefore">
+    <view class="selectProductTabPart">
+        <view class="selectProductTabPartImg">
+            <view class="selectProductTabPartImg01">
+                <image class="" src="../../static/img/xiaonvhai.jpg" style="width:128rpx; height:128rpx" mode="aspectFit|aspectFill|widthFix" lazy-load="false" binderror="" bindload=""></image>
+            </view>
+        </view>
+        <view class="selectProductTabPartMain">
+            <view class="selectProductTabPartMain01">
+                <view class="selectProductTabPartMainTit">健利保重大疾病保险 icon icon</view>
+                <view class="selectProductTabPartMainMiddle">保障全面/可多次赔付/保终身</view>
+                <view class="selectProductTabPartMainBottom">投保年龄：28天-60周岁</view>
+            </view>
+        </view>
+    </view>
+</view>

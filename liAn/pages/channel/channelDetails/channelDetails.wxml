@@ -1,0 +1,33 @@
+<!-- pages/channelDetails/channelDetails.wxml -->
+<view id="channelDetails">
+    <view class="channelDetailsBank">
+        <!-- <image src="http://n.sinaimg.cn/jiangsu/transform/266/w640h426/20190301/Kek6-htstzcc0459043.jpg" /> -->
+        <image src="{{channelDetailsBankImg}}" class="channelDetailsBankImg" mode="aspectFill" />
+        <view class="channelDetailsBankContain">
+            <view class="channelDetailsBankContainTit">南京银行理财网点</view>
+            <view class="channelDetailsBankContainMain">
+                <text>南京市建邺区江东中路235号雨润国际广场B1楼8-13层</text>
+                <i class="iconfont icon-chufadihedidian"></i>
+            </view>
+            <view class="channelDetailsBankContainTell">
+                <text>联系电话</text>
+                <text>000 00000000</text>
+            </view>
+            <view class="channelDetailsBankContainTime">
+                <text>营业时间</text>
+                <text>周一至周五 09:00 — 16:30</text>
+            </view>
+        </view>
+        <view class="channelDetailsBankBtn">
+            <view class="channelDetailsBankBtnDel">
+                <i class="iconfont icon-shanchu" style="padding-right:20rpx"></i>
+                删除
+            </view>
+            <view class="channelDetailsBankBtnModify">
+                <i class="iconfont icon-xiugai" style="padding-right:20rpx"></i>
+                修改
+            </view>
+        </view>
+    </view>
+    <button class="channelDetailsBtn" bindtap="channelPersonnelList">我的渠道人员管理</button>
+</view>

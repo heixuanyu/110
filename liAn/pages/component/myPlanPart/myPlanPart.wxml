@@ -1,0 +1,26 @@
+<!-- pages/component/myPlanPart/myPlanPart.wxml -->
+<view class="myPlanPart">
+    <view class="myPlanPartTop">
+        <view class="myPlanPartTopImg">
+            <div class="myPlanPartTopImg01">
+                <image src="http://img1.3lian.com/2015/w7/85/d/101.jpg" mode="aspectFill" style="height: 128rpx;width: 128rpx;"></image>
+            </div>
+        </view>
+        <view class="myPlanPartTopContain">
+            <view class="myPlanPartTopContain01">叶先生的计划书</view>
+            <view class="myPlanPartTopContain02">健利保重大疾病保险</view>
+            <view class="myPlanPartTopContain03">首期保费：¥3600.00</view>
+        </view>
+    </view>
+    <view class="myPlanPartBottom">
+        <view>2020-03-21</view>
+        <view>
+            <i class="iconfont icon-shanchu" style="padding-right:20rpx"></i>
+            删除
+        </view>
+        <view>
+            <i class="iconfont icon-xiugai" style="padding-right:20rpx"></i>
+            修改
+        </view>
+    </view>
+</view>

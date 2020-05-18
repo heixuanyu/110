@@ -1,0 +1,52 @@
+/* pages/component/modifyChannelHead/modifyChannelHead.wxss */
+
+
+/* pages/component/teamLi/teamLi.wxss */
+
+.modifyChannelHead01 {
+    width: 100vw;
+    background: #ffffff;
+}
+
+.modifyChannelHead {
+    display: flex;
+    height: 200rpx;
+    width: 654rpx;
+    align-items: center;
+    /* background-color: violet; */
+    margin: 0 auto;
+}
+
+.modifyChannelHeadImg01 {
+    padding-right: 52rpx;
+}
+
+.modifyChannelHead .modifyChannelHeadImg {
+    width: 136rpx;
+    height: 136rpx;
+    border-radius: 50%;
+    background-clip: content-box;
+    overflow: hidden;
+    background-color: springgreen;
+}
+
+.modifyChannelHead .modifyChannelHeadImgContain {
+    flex: 1;
+}
+
+.modifyChannelHeadImgContainName {
+    font-size: 36rpx;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #626262;
+}
+
+.modifyChannelHeadImgContainNum {
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Light;
+    font-weight: 300;
+    text-align: left;
+    color: #626262;
+    padding-top: 20rpx;
+}

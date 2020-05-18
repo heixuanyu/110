@@ -1,0 +1,92 @@
+<!-- 个人信息栏 -->
+<view class="lineBox"></view>
+<view class="messageBox">
+  <view class="mineAvatar">
+    <image src="https://dss2.bdstatic.com/6Ot1bjeh1BF3odCf/it/u=3487693244,2498480691&fm=74&app=80&f=JPEG&size=f121,121?sec=1880279984&t=91862a09154f82300748b395deaec4cd" class="imgStyle"/>
+  </view>
+  <view class="nameContainer">
+    <view class="nameBox">
+      <view class="leftName">
+       <view class="iconBox">
+          <i class="iconfont icon-huodong"></i>
+        </view>
+        <view class="textName">姓名</view>
+      </view>
+      <view class="rightName">王一博</view>
+    </view>
+    <view class="nameBox">
+      <view class="leftName">
+        <view class="iconBox">
+          <i class="iconfont icon-huodong"></i>
+        </view>
+        <view class="textName">执业编号</view>
+      </view>
+      <view class="rightName">LA1024RS</view>
+    </view>
+    <view class="nameBox">
+      <view class="leftName">
+        <view class="iconBox">
+          <i class="iconfont icon-huodong"></i>
+        </view>
+        <view class="textName">职位</view>
+      </view>
+      <view class="rightName">销售经理</view>
+    </view>
+    <view class="nameBox">
+      <view class="leftName">
+        <view class="iconBox">
+          <i class="iconfont icon-huodong"></i>
+        </view>
+        <view class="textName">电话</view>
+      </view>
+      <view class="rightName">18088888888</view>
+    </view>
+    <view class="nameBox">
+      <view class="leftName">
+        <view class="iconBox">
+          <i class="iconfont icon-huodong"></i>
+        </view>
+        <view class="textName">微信</view>
+      </view>
+      <view class="rightName">Wangyibo_0808</view>
+    </view>
+  </view>
+</view>
+<!-- 个人勋章部分 -->
+<view  class="personalMedal">
+  <view class="medalBox">
+    <view class="medalLeftBox"></view>
+    <text class="medalText">个人勋章</text>
+  </view>
+  <view class="sixBox"></view>
+</view>
+<!-- 关于我部分 -->
+<view class="aboutMe">
+  <view class="aboutTitle">关于我</view>
+  <view class="aboutText">
+  懂你，懂保险！专业的角度，中立的平台，为您量身定制最适合您的家庭保障方案！你若安好，我就备胎到老，您若不好，我就救命稻草！
+  </view>
+</view>
+<!-- 工作经历 -->
+<view class="aboutMe workExperience">
+  <view class="workTitle aboutTitle">工作经历</view>
+  <view class="workList">
+    <text class="joinTime">就职公司</text>
+    <text class="timeText">利安人寿保险股份有限公司</text>
+  </view>
+  <view class="workList">
+    <text class="joinTime">就职时间</text>
+    <text class="timeText">2010/01/22-2020/01/23</text>
+  </view>
+  <view class="workList">
+    <text class="joinTime">就职职位</text>
+    <text class="timeText">销售经理</text>
+  </view>
+</view>
+<!-- 修改按钮部分 -->
+<navigator class="editBox" url="../editInfo/editInfo" hover-class="navigator-hover" open-type="navigate">
+  <button class="editBtn">修改</button>
+</navigator>
+
+
+

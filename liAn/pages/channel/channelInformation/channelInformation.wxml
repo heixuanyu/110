@@ -1,0 +1,41 @@
+<!-- pages/channelInformation/channelInformation.wxml -->
+<modify-channel-head></modify-channel-head>
+<view style="height:32rpx"></view>
+<modify-channel-input tit="所属渠道" pHolder="请填写渠道" type="text"></modify-channel-input>
+<modify-channel-input tit="手机号码" pHolder="请填写渠道人员手机号码" type="number"></modify-channel-input>
+<modify-channel-select01></modify-channel-select01>
+<view class="channelInformationBtn">
+    <button class="channelInformationBtn01"  bindtap="channelInformationBtnClick02">
+        <i class="iconfont icon-shanchu" style="padding-right:20rpx"></i>
+        删除
+    </button>
+    <button class="channelInformationBtn02">
+        <i class="iconfont icon-xiugai" style="padding-right:20rpx"></i>
+        修改
+    </button>
+    <button class="channelInformationBtn03">确定</button>
+</view>
+<view class="channelInformationDialog  {{channelInformationBtnView}}" catchtouchmove='true'  bindtap="channelInformationBtnClick">
+    <view class="channelInformationDialogBox">
+        <view class="channelInformationDialogBoxContain">
+            <view>渠道人员信息</view>
+            <view>
+                <text>姓名：</text>
+                刘嘉玲
+            </view>
+            <view>
+                <text>性别：</text>
+                女性
+            </view>
+            <view>
+                <text>电话：</text>
+                18000000000
+            </view>
+            <view>确定要删除改人员信息吗？</view>
+        </view>
+        <view class="channelInformationDialogBoxBtn">
+            <button>确定</button>
+            <button>取消</button>
+        </view>
+    </view>
+</view>

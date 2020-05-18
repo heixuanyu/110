@@ -1,0 +1,13 @@
+<!-- pages/component/myChannelSelect01/myChannelSelect01.wxml -->
+<view class='myChannelSelect01'>
+    <!-- 下拉框 -->
+    <view class='myChannelSelect01Main' bindtap='bindShowMsg'>
+        <text>性别</text>
+        <text>{{sex}} </text><i class="iconfont icon-xiala"></i>
+    </view>
+    <!-- 下拉需要显示的列表 -->
+    <view class="myChannelSelect01Contain" wx:if="{{select}}">
+        <view class="my-channel-select_one" bindtap="mySelect" data-sex02="男生" hover-class="my-channel-select-hover" hover-stay-time="1500">男生</view>
+        <view class="my-channel-select_one" bindtap="mySelect" data-sex02="女生" hover-class="my-channel-select-hover" hover-stay-time="1500">女生</view>
+    </view>
+</view>

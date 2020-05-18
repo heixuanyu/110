@@ -1,0 +1,154 @@
+<!-- 头部名片部分 -->
+<view class="headBox">
+  <view class="rightBox">
+    <view class="iconBox">
+      <i class="iconfont icon-tubiaozhizuo-"></i>
+    </view>
+    <view class="iconBox">
+      <i class="iconfont icon-dianhua"></i>
+    </view>
+    <view class="iconBox">
+      <i class="iconfont icon-weixin1"></i>
+    </view>
+    <view class="iconBox">
+      <i class="iconfont icon-chufadihedidian"></i>
+    </view>
+  </view>
+  <view class="bottomBox">
+    <view class="contentBox">
+      <view class="nameBox">  
+        <text class="name">王一博</text>
+        <i class="iconfont icon-jf-play"></i>
+      </view>
+      <view class="jobNum">执业编号:0000000000</view>
+      <view class="jobNum">隶属公司：利安人寿保险公司</view>
+      <view class="connectBox">
+        <view class="contact">
+          <i class="iconfont icon-weibiaoti1"></i>
+          <text>18888888888</text>
+        </view>
+        <view class="contact">
+          <i class="iconfont icon-weibiaoti1"></i>
+          <text>18888888888</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 点赞数行 -->
+<view class="goodBox">
+  <view class="avatarBox">
+    <image src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589181648&di=51175de1e0d618039f98288cb32fb63d&src=http://pics3.baidu.com/feed/7a899e510fb30f246239e8443a2e7545ac4b0313.jpeg?token=2f852bc78424acfce617490f901724ba" class="avatar" mode = "scaleToFill" lazy-load="{{true}}"/> 
+    <image src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589181648&di=51175de1e0d618039f98288cb32fb63d&src=http://pics3.baidu.com/feed/7a899e510fb30f246239e8443a2e7545ac4b0313.jpeg?token=2f852bc78424acfce617490f901724ba" class="avatar" mode = "scaleToFill" lazy-load="{{true}}"/> 
+  </view>
+  <view class="ellipsis">
+    <view class="ellipsisIcon"></view>
+  </view>
+  <!-- 点赞数和点赞图标 -->
+  <view class="goodRight">
+    <text class="goodNum">点赞数 75</text>
+    <view class="iconGood">
+      <i class="iconfont icon-dianzan"></i>
+    </view>
+  </view>
+</view>
+
+<!-- 关于我行 -->
+<view class='aboutMe'>
+  <view class="titleBox">
+    <view class="triangle"></view>
+    <view class="aboutMeText">关于我</view>
+  </view>
+  <view class="insuranceText">
+  懂你，懂保险！专业的角度，中立的平台，为您量身定制最适合您的家庭保障方案！你若安好，我就备胎到老，您若不好，我就救命稻草！
+  </view>
+  <view class="lineBox"></view>
+  <view class="customerDetail">
+    <view class="companyBox">公司介绍</view>
+    <view class="verticalLine"></view>
+    <view class="companyBox">详细介绍</view>
+    <view class="verticalLine"></view>
+    <view class="companyBox">客户评价</view>
+  </view>
+</view>
+
+<!-- 优选产品 -->
+<view class="productBox">
+  <view class="productLineBox">
+    <view class="goodProduct">
+      <view class="fireBox">
+        <i class="iconfont icon-icon-test"></i>
+      </view>
+      <view class="goodProduct">优选产品</view>
+    </view>
+    <view class="getMore">
+      <view class="moreText">更多</view>
+      <i class="iconfont icon-you-"></i>
+    </view>
+  </view>
+  <view class="productDetail">
+    <view class="imgBox">
+      <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3610725648,3410317786&fm=26&gp=0.jpg" class="picStyle"/>
+      <view class='insurance'>年金险</view>
+    </view>
+    <view class="productRight">
+      <view class="planBox">
+        鑫惠一生综合保障计划
+      </view>
+      <view class="ageBox">
+        投保年龄：出生28天-65周岁
+      </view>
+      <view class="ageBox">
+        保障期限：终身
+      </view>
+    </view>
+  </view>
+  <view class="productDetail">
+    <view class="imgBox">
+      <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3610725648,3410317786&fm=26&gp=0.jpg" class="picStyle"/>
+      <view class='insurance'>年金险</view>
+    </view>
+    <view class="productRight">
+      <view class="planBox">
+        鑫惠一生综合保障计划
+      </view>
+      <view class="ageBox">
+        投保年龄：出生28天-65周岁
+      </view>
+      <view class="ageBox">
+        保障期限：终身
+      </view>
+    </view>
+  </view>
+  <view class="productLineBox">
+    <view class="goodProduct">
+      <view class="fireBox">
+        <i class="iconfont icon-huodong"></i>
+      </view>
+      <view class="goodProduct">主题活动</view>
+    </view>
+    <view class="getMore">
+      <view class="moreText">更多</view>
+      <i class="iconfont icon-you-"></i>
+    </view>
+  </view>
+  <!-- 底部轮博图 -->
+  <view class="swiperBox">
+    <swiper indicator-dots="{{indicatorDots}}"
+      autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" next-margin="24rpx" circular="{{circular}}">
+      <block wx:for="{{background}}" wx:key="*this" >
+        <swiper-item class='scrollBox'>
+          <image src="{{item}}" class="swiperPic" scaleToFill/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- 底部解释语 -->
+  <view class="explication">
+    <view class="horizontalLine"></view>
+    <view class="allRight">最终解释权归利安人寿所有</view>
+    <view class="horizontalLine"></view>
+  </view>
+</view>
+

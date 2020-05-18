@@ -1,0 +1,68 @@
+/* pages/customerList/myCustomers/myCustomers.wxss */
+page {
+  background: #F2F2F0;
+}
+.headSearch {
+  background-color: #EFEFEF;
+  display: flex;
+  height:108rpx;
+  align-items: center;
+}
+.searchBox {
+  background-color: #FFFFFF;
+  border:1rpx solid #D9D9D9;
+  display: flex;
+  margin-left: 36rpx;
+  margin-right: 36rpx;
+  align-items: center;
+  height: 68rpx;
+  border-radius: 34rpx;
+  padding-right: 36rpx;
+}
+.addBox {
+  display:flex;
+  align-items: center;
+}
+.addText {
+  color:#2E418D;
+  font-size: 24rpx;
+  margin-left: 16rpx;
+}
+.word {
+  background: #F8F8F8;
+  height:68rpx;
+  color:#626262;
+  font-size: 28rpx;
+  line-height: 68rpx;
+  padding-left: 40rpx;
+}
+.personalDetail {
+  background: #fff;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.message {
+  padding-top: 35rpx;
+}
+.userName {
+  color:#626262;
+  margin-left: 20rpx;
+  font-size: 36rpx;
+}
+.information {
+  display: flex;
+  align-items: center;
+  margin-top: 25rpx;
+  padding-bottom: 35rpx;
+}
+.cakeBox {
+  margin-left: 80rpx;
+  display: flex;
+  align-items: center;
+}
+.number {
+  font-size: 24rpx;
+  color:#626262;
+  margin-left: 25rpx;
+}
+

@@ -1,0 +1,13 @@
+<!-- pages/component/modifyChannelHead/modifyChannelHead.wxml -->
+
+<view class="modifyChannelHead01">
+    <view class="modifyChannelHead">
+        <view class="modifyChannelHeadImg01">
+            <view class="modifyChannelHeadImg">img</view>
+        </view>
+        <view class="modifyChannelHeadImgContain">
+            <view class="modifyChannelHeadImgContainName">{{name}}</view>
+            <view class="modifyChannelHeadImgContainNum">执业编号：LA0101ABC</view>
+        </view>
+    </view>
+</view>

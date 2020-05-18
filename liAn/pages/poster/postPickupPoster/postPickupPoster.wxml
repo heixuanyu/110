@@ -1,0 +1,18 @@
+<view class="postPickupPoster">
+    <view class="postPickupPosterPage">
+        <view class="postPickupPosterPage01">
+            <view class="postPickupPosterPage01img">image</view>
+            <view class="postPickupPosterPage01page">
+                <view class="postPickupPosterPage01page01">刘嘉玲</view>
+                <view class="postPickupPosterPage01page02">电话：18888888888</view>
+                <view class="postPickupPosterPage01page03">微信：Liujialing_0808</view>
+            </view>
+            <view class="postPickupPosterPage01ewm">二维码</view>
+        </view>
+    </view>
+</view>
+<view class="postPickupPosterBtn">
+    <!-- 按钮样式部分 -->
+    <!-- <button>长按图片保存</button> -->
+    <view class="saveBtn">长按图片保存</view>
+</view>

@@ -1,0 +1,31 @@
+/* pages/component/myChannelSelect/myChannelSelect.wxss */
+
+.myChannelSelect {
+    width: 100vw;
+    height: 108rpx;
+    background-color: #ffffff;
+    margin: 1rpx 0;
+}
+
+.myChannelSelectMain {
+    width: 236rpx;
+    background-color: yellow;
+    padding-left: 36rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #808080;
+    line-height: 108rpx;
+}
+
+.myChannelSelectContain {
+    /* background-color: red; */
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #626262;
+    line-height: 108rpx;
+    padding-left: 160rpx;
+}

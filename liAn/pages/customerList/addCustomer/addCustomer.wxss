@@ -1,0 +1,82 @@
+/* pages/customerList/customerDetail/customerDetail.wxss */
+page {
+  background: #F2F2F0;
+}
+.customerList {
+  margin-top: 48rpx;
+  background:#fff;
+  margin-bottom: 200rpx;
+}
+.customerListCell {
+  display:flex;
+  align-items: center;
+  /* height: 108rpx; */
+  padding-left: 36rpx;
+  padding-right: 36rpx;
+  border-bottom:1rpx solid #F2F2F0;
+}
+.customerText {
+  display: flex;
+  align-items: center;
+  color:#f00;
+  margin-right: 10rpx;
+  width:20%;
+  justify-content: flex-end;
+}
+.code {
+  margin-right: 10rpx;
+}
+.customerName {
+  font-size: 28rpx;
+  color:#808080;
+  text-align: justify;
+  height: 108rpx;
+  line-height: 108rpx;
+  width:120rpx;
+}
+.customerName::after {
+  content: ' ';
+  overflow:hidden;
+  width:120rpx;
+  display: inline-block;
+}
+.inputName {
+  margin-left: 80rpx;
+  font-size:28rpx;
+  color:#626262;
+}
+.customerNameOne {
+  letter-spacing: 30rpx;
+}
+.bottomBox {
+  height:98rpx;
+  background:#fff;
+  display: flex;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  align-items: center;
+  justify-content: center;
+  background:#2E418D;
+  color:#fff;
+  font-size: 36rpx;
+  z-index:1000;
+}
+
+.dateSection {
+  margin-left: 80rpx;
+  font-size:28rpx;
+  width:60%;
+}
+.choiceBox {
+  display: flex;
+  width:100%;
+}
+.choiceText {
+  color:#D9D9D9;
+  flex:1;
+}
+.icon-riliriqi {
+  color:#808080;
+}
+

@@ -1,0 +1,11 @@
+<!-- pages/component/bankingOutlets/bankingOutlets.wxml -->
+
+<view class="bankingOutlets">
+    <view class="bankingOutletsImg">
+    <image src="https://img.cebnet.com.cn/20170825/102420152.jpg"  mode="aspectFill"/>
+    </view>
+    <view class="bankingOutletsContain">
+        <view class="bankingOutletsContainTit">南京银行理财网点</view>
+        <view class="bankingOutletsContainSite">南京市建邺区江东中路235号雨润国际广场B1楼8-13层</view>
+    </view>
+</view>

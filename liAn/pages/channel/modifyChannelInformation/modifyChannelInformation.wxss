@@ -1,0 +1,23 @@
+/* pages/modifyChannelInformation/modifyChannelInformation.wxss */
+
+page {
+    background: #F2F2F0;
+}
+
+.modifyChannelInformationBtn {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.modifyChannelInformationBtn>button {
+    font-size: 36rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #ffffff;
+    line-height: 98rpx;
+    height: 98rpx;
+    background: #2e418d;
+    border-radius: 0;
+}

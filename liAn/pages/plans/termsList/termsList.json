@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "terms-list-input": "../component/termsListInput/termsListInput"
+    }
+}

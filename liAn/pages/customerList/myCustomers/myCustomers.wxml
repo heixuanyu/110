@@ -1,0 +1,36 @@
+<!--pages/customerList/myCustomers/myCustomers.wxml-->
+<view class="customerList">
+  <!-- 头部搜索部分 -->
+  <view class="headSearch">
+    <view class="searchBox">
+      <input class="input" name="userName" placeholder="客户名称或手机号" 
+      placeholder-style="color:#D9D9D9 ; font-size: 24rpx; margin-left:50rpx;letter-spacing:2rpx"
+      bindinput="userNameInput"/>
+      <i class="iconfont icon-chaxun" style="color:#808080;font-size:45rpx"></i>
+    </view>
+    <view class="addBox">
+      <i class="iconfont icon-jia" style="color:#2E418D"></i>
+      <text class="addText">添加客户</text>
+    </view>
+  </view>
+  <!-- 字母排序部分  -->
+  <navigator class="wordOrder" url="../customerDetail/customerDetail" hover-class="navigator-hover" open-type="navigate">
+    <view class="word">Y</view>
+    <view class="personalDetail">
+      <view class="message">
+        <i class="iconfont icon-nan" style="color:#8DC5FF"></i>
+        <text class="userName">王祖贤</text>
+      </view>
+      <view class="information">
+        <view class="telBox">
+          <i class="iconfont icon-weibiaoti1" style="color:#808080"></i>
+          <text class="number">180 0000 0000</text>
+        </view>
+        <view class="cakeBox">
+          <i class="iconfont icon-shengridangao"style="color:#808080" ></i>
+          <text class="number">1990-01-01</text>
+        </view>
+      </view>
+    </view>
+  </navigator>
+</view>

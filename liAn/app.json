@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/plans/fillPlanMessage/fillPlanMessage",
+    "pages/myTeams/memberCheck/memberCheck",
+    "pages/poster/postPickupPoster/postPickupPoster",
+    "pages/plans/termsList/termsList",
+    "pages/plans/insuredKnow/insuredKnow",
+    "pages/plans/termsDetails/termsDetails",
+    "pages/myMsg/editInfo/editInfo",
+    "pages/homePage/homePage/homePage",
+    "pages/homePage/comment/comment",
+    "pages/allList/submitSuccess/submitSuccess",
+    "pages/allList/submitMsg/submitMsg",
+    "pages/allList/articleDetail/articleDetail",
+    "pages/allList/articleList/articleList",
+    "pages/myMsg/myInfo/myInfo",
+    "pages/customerList/addCustomer/addCustomer",
+    "pages/customerList/myCustomers/myCustomers",
+    "pages/customerList/customerDetail/customerDetail",
+    "pages/index/index",
+    "pages/logs/logs",
+  
+    
+  
+    "pages/plans/selectProduct/selectProduct",
+    "pages/plans/myPlan/myPlan",
+    "pages/plans/buildProposal/buildProposal",
+    "pages/plans/plan/plan",
+    "pages/channel/channelDetails/channelDetails",
+    "pages/channel/reviewChannelMembers/reviewChannelMembers",
+    "pages/channel/channelPersonnelList/channelPersonnelList",
+    "pages/channel/addChannelMan/addChannelMan",
+    "pages/channel/channelInformation/channelInformation",
+    "pages/channel/myChannel/myChannel",
+    "pages/channel/modifyChannelInformation/modifyChannelInformation",
+    "pages/myTeams/myteam/myteam",
+    "pages/myTeams/memberReview/memberReview",
+    "pages/wechatCard/index03/index03",
+    "pages/wechatCard/index02/index02",
+    "pages/wechatCard/index/index",
+    "pages/component/modifyChannelHead/modifyChannelHead"
+  ],
+  "?pages": [
+    "利安微程序-管理员：pages/index/index",
+    "利安微程序-管理员：pages/index02/index02"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "利安微名片",
+    "navigationBarTextStyle": "black"
+  },
+  
+  "sitemapLocation": "sitemap.json"
+}

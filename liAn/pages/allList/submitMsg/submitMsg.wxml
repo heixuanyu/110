@@ -1,0 +1,47 @@
+<!-- 个人信息部分 -->
+<view class="messageBox">
+  <view class="messageLeft">
+    <image src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589181648&di=51175de1e0d618039f98288cb32fb63d&src=http://pics3.baidu.com/feed/7a899e510fb30f246239e8443a2e7545ac4b0313.jpeg?token=2f852bc78424acfce617490f901724ba" class="avatar" mode = "scaleToFill" lazy-load="{{true}}"/>
+  </view>
+  <view class="messageRight">
+    <view class="nameBox">
+      <view class="nameLine">
+        <view class="nameText">王一博</view>
+        <view class='workName'>销售经理</view>
+      </view>
+    </view>
+    <view class="detailBox">执业编号：LA0101ABC</view>
+    <view class="detailBox">隶属公司：利安人寿保险公司</view>
+    <view class="detailBox">电话：18888888888</view>
+    <view class="detailBox">微信：Liujialing_0808</view>
+  </view>
+</view>
+<!-- 留下信息部分 -->
+<view class="textBox">留下您的信息，我会尽快联系你~</view>
+<view class="fillMsg">
+  <view class="msgList">
+    <text class="name">您的姓名</text>
+    <input placeholder="请输入您的姓名或昵称" placeholder-class="placeholderStyle"/>
+  </view>
+  <view class="msgList">
+    <text class="name">联系方式</text>
+    <input placeholder="请输入您的手机号码" placeholder-class="placeholderStyle"/>
+  </view>
+  <view class="msgList">
+    <text class="name">您的性别</text>
+    <view class="pickerBox">
+      <picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}">
+        <view class= "pickerContent">
+          <view class="picker">
+            {{array[index]}}
+          </view>
+          <i class="iconfont icon-xiala2 iconStyle"></i>
+        </view>
+      </picker>
+    </view>
+  </view>
+</view>
+<!-- 提交信息部分 -->
+<navigator class="submitIt" url="../submitSuccess/submitSuccess">
+  提交
+</navigator>

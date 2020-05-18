@@ -1,0 +1,114 @@
+<view class="headerBox">
+  <view class="name">王一博</view>
+</view>
+<view class="messageBox">
+  <view class="imgBox">
+    <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3610725648,3410317786&fm=26&gp=0.jpg" class="picBox"/>
+  </view>
+  <view class="commentBox">
+    <view class="score">4.8</view>
+    <view class="star">
+      <view class="starIcon">
+        <i class="iconfont icon-xingxing_xuanzhong"></i>
+        <i class="iconfont icon-xingxing_xuanzhong"></i>
+        <i class="iconfont icon-xingxing_xuanzhong"></i>
+        <i class="iconfont icon-xingxing_xuanzhong"></i>
+        <i class="iconfont icon-xingxing-kong"></i>
+      </view>
+      <view class="commentPerson">312人评价</view>
+    </view>
+  </view>
+  <!-- 单选框部分 -->
+  <radio-group bindchange="radioChange">
+    <view class='label'>
+      <label class="ui-radio {{item.checked==true?'active':''}}" wx:for="{{items}}">
+        <radio value="{{item.value}}" checked="{{item.checked}}" />
+        <text class="text">{{item.name}}</text>
+      </label>
+    </view>
+  </radio-group>
+</view>
+<!-- 中间灰色横线 -->
+<view class="grayLine"></view>
+
+<!-- 用户评价部分 -->
+<view class="customerComment">
+  <view class="commentText">用户评价</view>
+</view>
+
+<!-- 个人信息部分 -->
+<view class="messageInfo">
+  <view class="messageInfoDetail">
+    <!-- 个人信息行 -->
+    <view class="selfMessage">
+      <view class="messageDetail">
+        <view class="avatarMessage">
+          <view class="avatarBox">
+            <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3610725648,3410317786&fm=26&gp=0.jpg" class="avatarImg"/> 
+          </view>
+          <view class="msgBox">
+            <view class="netName">利安头号粉丝</view>
+            <view class="date">2019-10-29</view>
+          </view>
+        </view>
+        <view class="iconBox">
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing-kong"></i>
+        </view>
+      </view>
+      <view class="messageText">
+      我问了小姐姐好多问题，都非常有耐心的帮我解答了，给我出了很多套方案让我选择，真的是量身定制保险产品套餐。
+      </view>
+    </view>
+  </view>
+  <view class="messageInfoDetail">
+    <!-- 个人信息行 -->
+    <view class="selfMessage">
+      <view class="messageDetail">
+        <view class="avatarMessage">
+          <view class="avatarBox">
+            <image src="https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=3610725648,3410317786&fm=26&gp=0.jpg" class="avatarImg"/> 
+          </view>
+          <view class="msgBox">
+            <view class="netName">利安头号粉丝</view>
+            <view class="date">2019-10-29</view>
+          </view>
+        </view>
+        <view class="iconBox">
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing_xuanzhong"></i>
+          <i class="iconfont icon-xingxing-kong"></i>
+        </view>
+      </view>
+      <view class="messageText">
+      我问了小姐姐好多问题，都非常有耐心的帮我解答了，给我出了很多套方案让我选择，真的是量身定制保险产品套餐。
+      </view>
+    </view>
+  </view>
+</view>
+
+<!-- 中间灰色横线 -->
+<view class="grayLine"></view>
+
+<!-- 底部评价部分 -->
+  <view class="bottomComment">
+    <view class="grayStar">
+      <i class="iconfont icon-xingxing_xuanzhong grayStarCell"></i>
+      <i class="iconfont icon-xingxing_xuanzhong grayStarCell"></i>
+      <i class="iconfont icon-xingxing_xuanzhong grayStarCell"></i>
+      <i class="iconfont icon-xingxing_xuanzhong grayStarCell"></i>
+      <i class="iconfont icon-xingxing-kong grayStarCell"></i>
+    </view>
+    <text class="evaluation">非常差</text>
+    <!-- 底部输入框 -->
+    <view class="bottomInput">
+      <textarea placeholder="请留下您的想法和鼓励~" placeholder-class="placeStyle" class="areaBcg"/>
+      <view class="numberText">0/200</view>
+    </view>
+    <view class="estimateText">立即评价</view>
+  </view>

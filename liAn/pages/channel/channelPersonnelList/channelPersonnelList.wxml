@@ -1,0 +1,39 @@
+<!-- pages/channelPersonnelList/channelPersonnelList.wxml -->
+<!-- pages/myteam/myteam.wxml -->
+<view>
+    <view>
+        <!-- tab start -->
+        <view class="swiper-tab">
+            <view class="swiper-tab-list {{currentTab==0 ? 'on' : ''}}" data-current="0" bindtap="swichNav">
+                渠道人员
+            </view>
+            <view class="swiper-tab-list {{currentTab==1 ? 'on' : ''}}" data-current="1" bindtap="swichNav">
+                待审核人员
+            </view>
+        </view>
+        <swiper current="{{currentTab}}" class="swiper-box" duration="300" style="height:{{winHeight}}px" bindchange="bindChange">
+            <view style='height: 48px;width: 100%'></view>
+            <swiper-item>
+                <!-- 加scroll-view更好 -->
+                <view>
+                    <view class="man-team-li-word">Y</view>
+                    <man-team-li name="叶峰" sbb='1' people='man'></man-team-li>
+                    <view class="man-team-li-word">Z</view>
+                    <man-team-li name="张婷婷" sbb='1' people='woman'></man-team-li>
+                    <man-team-li name="张婷" sbb='1' people='woman'></man-team-li>
+                    <man-team-li name="张婷婷" sbb='1' people='woman'></man-team-li>
+                    <man-team-li name="张婷婷" sbb='1' people='woman'></man-team-li>
+                    <man-team-li name="张婷婷" sbb='1' people='woman'></man-team-li>
+                </view>
+            </swiper-item>
+            <swiper-item>
+                <view class="my-team-man-tell-li">
+                    <man-tell-li name="叶峰" sbb='1' people='man'></man-tell-li>
+                    <man-tell-li name="张婷婷" sbb='1' people='woman'></man-tell-li>
+                    <man-tell-li name="张婷婷" sbb='1' people='woman'></man-tell-li>
+                </view>
+            </swiper-item>
+        </swiper>
+        <!-- tab end -->
+    </view>
+</view>

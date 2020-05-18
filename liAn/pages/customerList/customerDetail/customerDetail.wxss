@@ -1,0 +1,72 @@
+/* pages/customerList/customerDetail/customerDetail.wxss */
+page {
+  background: #F2F2F0;
+}
+.customerList {
+  margin-top: 48rpx;
+  background:#fff;
+  margin-bottom: 190rpx;
+}
+.customerListCell {
+  display:flex;
+  align-items: center;
+  height: 108rpx;
+  padding-left: 36rpx;
+  padding-right: 36rpx;
+  border-bottom:1rpx solid #F2F2F0;
+}
+.customerListCell:nth-last-child(1) {
+  border-bottom:none;
+}
+.customerName {
+  font-size: 28rpx;
+  color:#808080;
+  width:112rpx;
+}
+.inputName {
+  margin-left: 80rpx;
+  font-size:28rpx;
+  color:#626262;
+}
+.customerNameOne {
+  letter-spacing: 30rpx;
+}
+.bottomBox {
+  height:98rpx;
+  background:#fff;
+  display: flex;
+  position: fixed;
+  bottom:0;
+  width:100%;
+  align-items: center;
+}
+.bottomLeft {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  color:#808080;
+  font-size: 28rpx;
+}
+.bottomCol {
+  width: 50%;
+  text-align: center;
+}
+.deleteText {
+  margin-left: 10rpx;
+}
+.line {
+  width:2rpx;
+  height:60rpx;
+  background:#D9D9D9;
+}
+.bottomRight {
+  width:280rpx;
+  text-align: center;
+  line-height: 98rpx;
+  color:#fff;
+  background:#2E418D;
+}
+.rightText {
+  font-size: 36rpx;
+}

@@ -1,0 +1,38 @@
+/* pages/component/myChannelInput/myChannelInput.wxss */
+
+.myChannelInput {
+    width: 100vw;
+    height: 108rpx;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #ffffff;
+    align-items: center;
+    margin: 1rpx 0;
+}
+
+.myChannelInput01 {
+    width: 236rpx;
+    /* background-color: yellow; */
+    padding-left: 36rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #808080;
+    line-height: 40rpx;
+}
+
+.myChannelInput02 {
+    flex: 1;
+}
+
+.myChannelInputPlaceholder {
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #d9d9d9;
+    line-height: 40rpx;
+    overflow: hidden;
+}

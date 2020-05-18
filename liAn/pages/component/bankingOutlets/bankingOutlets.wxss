@@ -1,0 +1,46 @@
+/* pages/component/bankingOutlets/bankingOutlets.wxss */
+
+.bankingOutlets {
+    width: 100vw;
+    height: 240rpx;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 12rpx;
+}
+
+.bankingOutlets>.bankingOutletsImg {
+    width: 160rpx;
+    height: 120rpx;
+    background-clip: content-box;
+    margin-left: 36rpx;
+}
+
+.bankingOutlets>.bankingOutletsImg>image {
+    width: 160rpx;
+    height: 120rpx;
+}
+
+.bankingOutletsContain {
+    padding-right: 34rpx;
+    padding-left: 40rpx;
+}
+
+.bankingOutletsContain>.bankingOutletsContainTit {
+    font-size: 36rpx;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #626262;
+    height: 50rpx;
+    padding-bottom: 14rpx;
+}
+
+.bankingOutletsContain>.bankingOutletsContainSite {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Light;
+    font-weight: 300;
+    text-align: left;
+    color: #626262;
+    line-height: 34rpx;
+}

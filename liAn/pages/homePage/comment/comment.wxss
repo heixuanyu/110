@@ -1,0 +1,215 @@
+.headerBox {
+  background: #2E418D;
+  height: 194rpx;
+}
+.name {
+  text-align: center;
+  line-height: 194rpx;
+  color:#FFFFFF;
+  font-size: 40rpx;
+}
+.imgBox {
+  text-align: center;
+}
+.picBox {
+  width:136rpx;
+  height: 136rpx;
+  border:10rpx solid #fff;
+  border-radius: 50%;
+  margin-top: -34rpx;
+  box-shadow: 0 4rpx 8rpx 0 rgba(0,0,0,0.1);
+}
+.commentBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.score {
+  font-size: 68rpx;
+  font-family: ArialMT;
+  color: #626262;
+  line-height: 78rpx;
+}
+.star {
+  margin-left: 28rpx;
+}
+.starIcon {
+  color:#FF9800;
+  font-size: 40rpx;
+}
+.commentPerson {
+  color:#808080;
+  font-size: 24rpx;
+  line-height: 34rpx;
+  font-weight: 400;
+}
+/* 单选框部分 */
+.ui-radio radio {
+  display: none;
+}
+.label{
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  margin-top: 10rpx;
+}
+.ui-radio{
+  white-space:nowrap;
+  background: #D9D9D9;
+  border-radius: 20rpx;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  height: 40rpx;
+  margin:34rpx 0 0 36rpx;
+  padding:0 16rpx 4rpx 16rpx;
+}
+.ui-radio.active{
+  background: #2e418d;
+}
+.text{
+  font-size: 24rpx;
+  color:#fff;
+  line-height: 34rpx;
+}
+.ui-radio.active .text{
+  color:#fff;
+  font-size: 24rpx;
+  line-height: 34rpx;
+}
+/* 灰色横线部分 */
+.grayLine {
+  height: 16rpx;
+  background: #eeeeee;
+  margin-top: 36rpx;
+}
+.commentText {
+  font-size: 28rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  color: #111111;
+  line-height: 40rpx;
+  padding:34rpx 0 24rpx 36rpx;
+  border-bottom: 2rpx solid #EEEEEE;
+}
+.avatarImg {
+  width: 68rpx;
+  height: 68rpx;
+  border-radius: 50%;
+}
+/* 用户评价底部用户信息部分 */
+.selfMessage {
+  border-bottom: 2rpx solid #eeeeee;
+  padding-top: 22rpx;
+  padding-bottom: 22rpx;
+}
+.messageDetail {
+  display: flex;
+  align-items: center;
+  margin:0 36rpx;
+}
+.avatarMessage {
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+.msgBox {
+  margin-left: 24rpx;
+}
+.iconBox {
+  color:#FF9800;
+}
+.netName {
+  font-size: 24rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  color: #111111;
+  line-height: 34rpx;
+}
+.date {
+  font-size: 20rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  color: #808080;
+  line-height: 28rpx;
+  margin-top: 8rpx;
+}
+.messageText {
+  margin-left: 128rpx;
+  font-size: 24rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  color: #808080;
+  line-height: 40rpx;
+}
+/* 上部评价部分 */
+.bottomComment {
+  margin-top: 48rpx;
+}
+.grayStar {
+  color:#808080;
+}
+.grayStarCell {
+  font-size: 68rpx;
+}
+/* 底部评价部分 */
+.bottomComment {
+  text-align: center;
+}
+.bottomInput {
+  text-align: left;
+  width:90%;
+  margin:0 auto;
+  background: #f7f7f7;
+  padding-bottom: 20rpx;
+}
+.placeStyle {
+  font-size: 28rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  color: #d9d9d9;
+  line-height: 40rpx;
+}
+.areaBcg {
+  width:100%;
+  height: 280rpx;
+  padding:24rpx  32rpx;
+  line-height: 40rpx;
+  color:#808080;
+  font-size: 28rpx;
+}
+.numberText {
+  font-size: 24rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  text-align: right;
+  color: #808080;
+  line-height: 34rpx;
+  padding-right: 20rpx;
+}
+.bottomInput {
+  margin-top: 16rpx;
+}
+.evaluation {
+  font-size: 24rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  color: #808080;
+  line-height: 34rpx;
+}
+/* 底部评价按钮 */
+.estimateText {
+  width:90%;
+  background: #2E418D;
+  border-radius: 8rpx;
+  height: 98rpx;
+  color:#fff;
+  margin:0 auto;
+  margin-top: 30rpx;
+  margin-bottom: 40rpx;
+  font-size: 36rpx;
+  font-family: PingFangSC, PingFangSC-Regular;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 98rpx;
+}

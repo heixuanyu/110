@@ -1,0 +1,79 @@
+<!-- pages/buildProposal/buildProposal.wxml -->
+<view class="buildProposal">
+    <view class="buildProposalimg">绿色</view>
+    <view class="buildProposalContain00">
+        <view class="buildProposalContain">
+            <view class="buildProposalContain01">
+                <view class="buildProposalContain01main">
+                    <view class="buildProposalContain01main01">
+                        <view>刘嘉玲</view>
+                        <view>首年总保费</view>
+                    </view>
+                    <view class="buildProposalContain01main02">
+                        <view>
+                            女
+                            <text>42岁</text>
+                            上海
+                        </view>
+                        <view>
+                            <text>10400</text>
+                            元
+                        </view>
+                    </view>
+                </view>
+            </view>
+            <view class="buildProposalContain02">
+                <view class="buildProposalContain02tit"></view>
+                <view class="buildProposalContain02page"></view>
+            </view>
+            <view class="buildProposalContainList">
+                <view>
+                    <view>保险期间</view>
+                    <view>终身</view>
+                </view>
+                <view>
+                    <view>交费期间</view>
+                    <view>20年</view>
+                </view>
+                <view>
+                    <view>保额保额</view>
+                    <view>50万元</view>
+                </view>
+            </view>
+            <view style="height:32rpx;background: #f5f5f5;"></view>
+            <view class="buildProposalContainpageTit">
+                <view class="buildProposalContainpageTit01">保障利益</view>
+            </view>
+            <view class="buildProposalContainpageContain00">
+                <view class="buildProposalContainpageContain">
+                    <view class="buildProposalContainpageContain01">
+                        <view class="buildProposalContainpageContain01L">重大疾病保险金</view>
+                        <view class="buildProposalContainpageContain01R">
+                            105种重疾保障最高150万元重疾不分组，可赔3次，间隔365天 第一次重疾保障100%保额50万元 第二次重疾保障100%保额50万元 第三次重疾保障100%保额50万元
+                        </view>
+                    </view>
+                    <view class="buildProposalContainpageContain01">
+                        <view class="buildProposalContainpageContain01L">中症疾病保险金</view>
+                        <view class="buildProposalContainpageContain01R">
+                            20种中症保障最高75万元 中症不分组，可赔3次，无间隔 第一次中症保障40%保额20万元 第二次中症保障50%保额25万元 第三次中症保障60%保额30万元
+                        </view>
+                    </view>
+                    <view class="buildProposalContainpageContain02">
+                        注一：轻症、中症、重疾保险责任中同一种疾病给付仅限一次。 注二：给付首次重疾保险金后，中症、轻症、生命关爱金、身故/全残 保险金责任终止。 注三：给付完3次重疾保险金或生命关爱金/身故/全残保险金后本合同 终止
+                    </view>
+                </view>
+            </view>
+            <view style="height:32rpx;background: #f5f5f5;"></view>
+            <view class="buildProposalContainsafelist">
+                <view class="buildProposalContainsafelist01">
+                    <view>  <i class="iconfont icon-shu" style="color:#808080;font-size:45rpx"></i> 保险条款</view>
+                    <view><i class="iconfont icon-you" style="color:#808080;font-size:35rpx"></i></view>
+                </view>
+            </view>
+            <view class="buildProposalContaineditor">温馨提示：以上演示数据仅供参考，请根据利安人寿的具体要求填写保单。</view>
+        </view>
+    </view>
+    <view class="buildProposalBottomBtn">
+    <button>分享计划书</button>
+    </view>
+</view>

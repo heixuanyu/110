@@ -1,0 +1,107 @@
+/* pages/component/myPlanPart/myPlanPart.wxss */
+
+@import"../../../app.wxss";
+.myPlanPart {
+    width: 678rpx;
+    background: #ffffff;
+    border-radius: 16rpx;
+    /* background: red; */
+    margin: 0 auto;
+}
+
+.myPlanPartTop {
+    height: 198rpx;
+    /* background-color: tomato; */
+    border-bottom: 1rpx solid #eeeeee;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.myPlanPartTopImg {
+    width: 192rpx;
+    /* background-color: yellowgreen; */
+    height: 100%;
+    position: relative;
+}
+
+.myPlanPartTopImg01 {
+    height: 128rpx;
+    width: 128rpx;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* background-color: yellow; */
+    margin-left: 32rpx;
+}
+
+.myPlanPartTopContain {
+    flex: 1;
+    height: 100%;
+    /* background-color: blue; */
+}
+
+.myPlanPartTopContain01 {
+    font-size: 34rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #111111;
+    line-height: 48rpx;
+    padding-top: 46rpx;
+}
+
+.myPlanPartTopContain02 {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    line-height: 54rpx;
+}
+
+.myPlanPartTopContain03 {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    line-height: 36rpx;
+}
+
+.myPlanPartBottom {
+    display: inline-flex;
+    align-items: center;
+    height: 98rpx;
+    width: 100%;
+}
+
+.myPlanPartBottom>view:first-child {
+    /* background-color: turquoise; */
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #626262;
+    line-height: 34rpx;
+    padding-left: 28rpx;
+    flex: 1;
+}
+
+.myPlanPartBottom>view:nth-child(2) {
+    /* background-color: turquoise; */
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    /* color: #d02445; */
+    line-height: 40rpx;
+    width: 182rpx;
+    border-right: 1rpx solid #d9d9d9;
+}
+
+.myPlanPartBottom>view:nth-child(3) {
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #2e418d;
+    line-height: 40rpx;
+    width: 182rpx;
+}

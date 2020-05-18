@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+        "my-plan-part": "../component/myPlanPart/myPlanPart"
+
+    }
+}

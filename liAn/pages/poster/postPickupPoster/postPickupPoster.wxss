@@ -1,0 +1,99 @@
+.postPickupPoster {
+    background-image: url('https://sjbz-fd.zol-img.com.cn/t_s208x312c/g2/M00/03/07/ChMlWV66DZKIDtezABITNNgpS2MAAPC9wDn3XoAEhNM051.jpg');
+    background-size: cover;
+    width: 620rpx;
+    height: 1106rpx;
+    position: relative;
+    margin: 0 auto;
+    top: 80rpx;
+    margin-bottom: 68rpx;
+}
+
+.postPickupPosterPage {
+    background-color: darkcyan;
+    width: 584rpx;
+    height: 176rpx;
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 8rpx;
+    position: absolute;
+    bottom: 18rpx;
+    left: 18rpx;
+}
+
+.postPickupPosterPage01 {
+    width: 512rpx;
+    height: 176rpx;
+    /* background-color: darkturquoise; */
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+.postPickupPosterPage01img {
+    background-color: deeppink;
+    width: 75rpx;
+    height: 75rpx;
+}
+
+.postPickupPosterPage01page {
+    /* background-color: red; */
+    flex: 1;
+}
+
+.postPickupPosterPage01ewm {
+    width: 120rpx;
+    height: 120rpx;
+    background-color: indianred;
+}
+
+.postPickupPosterPage01page01 {
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #ffffff;
+    line-height: 40rpx;
+}
+
+.postPickupPosterPage01page02,
+.postPickupPosterPage01page03 {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Light;
+    font-weight: 300;
+    text-align: left;
+    color: #ffffff;
+    line-height: 34rpx;
+}
+
+.postPickupPosterPage01page03 {}
+
+.postPickupPosterBtn {
+    padding-top: 68rpx;
+    padding-bottom: 98rpx;
+    /* background-color: red; */
+    width: 100vw;
+}
+
+.postPickupPosterBtn>button {
+    font-size: 36rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    line-height: 100rpx;
+    height: 100rpx;
+    width: 376rpx;
+    margin: 0 auto;
+    border-radius: 50rpx;
+    border:none;
+}
+.saveBtn {
+    height: 100rpx;
+    width: 376rpx;
+    margin:0 auto;
+    font-weight: 400;
+    color: #808080;
+    background: #d9d9d9;
+    border-radius: 50rpx;
+    text-align: center;
+    line-height: 100rpx;
+}

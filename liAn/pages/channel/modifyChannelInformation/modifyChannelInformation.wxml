@@ -1,0 +1,10 @@
+<!-- pages/modifyChannelInformation/modifyChannelInformation.wxml -->
+<modify-channel-head></modify-channel-head>
+<view style="height:32rpx"></view>
+<modify-channel-input tit="所属渠道" pHolder="请填写渠道" type="text"></modify-channel-input>
+<modify-channel-input tit="手机号码" pHolder="请填写渠道人员手机号码" type="number"></modify-channel-input>
+<modify-channel-select01></modify-channel-select01>
+
+<view class="modifyChannelInformationBtn">
+<button>确定</button>
+</view>

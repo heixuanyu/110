@@ -1,0 +1,24 @@
+<!-- pages/myChannel/myChannel.wxml -->
+<view id="myChannel" class="myChannel">
+    <view class="myChannelSearch01">
+        <view class="myChannelSearch">
+            <!-- 搜索框start -->
+            <view class="myChannelSearchInput">
+                <!-- <input type="text" placeholder="请输入网点名称"></input> -->
+                <input class="myChannelSearchInput01" name="userName" placeholder="请输入网点名称" placeholder-style="color:#D9D9D9 ; font-size: 24rpx; margin-left:50rpx;letter-spacing:2rpx" bindinput="userNameInput" />
+                <i class="iconfont icon-chaxun" style="color:#808080;font-size:45rpx"></i>
+            </view>
+            <!-- 搜索框end -->
+            <view class="myChannelSearchAdd">
+                <i class="iconfont icon-jia1" style=""></i>
+                <text>添加网点</text>
+            </view>
+        </view>
+    </view>
+    <view bindtap="channelDetails" >
+        <banking-outlets></banking-outlets>
+        <banking-outlets></banking-outlets>
+        <banking-outlets></banking-outlets>
+        <banking-outlets></banking-outlets>
+    </view>
+</view>

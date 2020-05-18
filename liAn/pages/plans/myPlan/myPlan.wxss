@@ -1,0 +1,59 @@
+/* pages/myPlan/myPlan.wxss */
+
+page {
+    background-color: #EFEFEF;
+}
+
+.myChannelSearch01 {
+    width: 100vw;
+    background: #ffffff;
+}
+
+.myChannelSearch {
+    margin-left: 36rpx;
+    margin-right: 40rpx;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.myChannelSearchInput {
+    width: 485rpx;
+    height: 68rpx;
+    border-radius: 34rpx;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    background: #ffffff;
+    border: 1rpx solid #d9d9d9;
+}
+
+.myChannelSearchInput01 {
+    width: 381rpx;
+    padding-left: 42rpx;
+}
+
+.myChannelSearchAdd {
+    line-height: 68rpx;
+    height: 68rpx;
+}
+
+.myChannelSearchAdd>text {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #2e418d;
+    line-height: 68rpx;
+}
+
+.myChannelSearchAdd>i {
+    line-height: 68rpx;
+    color: #2e418d;
+    font-size: 40rpx;
+    height: 68rpx;
+    padding-right: 16rpx;
+}
+
+.my-plan-part {
+    margin-bottom: 32rpx;
+}

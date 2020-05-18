@@ -1,0 +1,6 @@
+<!-- pages/component/myChannelSelect/myChannelSelect.wxml -->
+
+<picker bindchange="bindPickerChange" value="{{index}}" range="{{array}}" class="myChannelSelect">
+    <text class="myChannelSelectMain">啊啊啊啊</text>
+    <text class="picker myChannelSelectContain">{{array[index]}}</text>
+</picker>

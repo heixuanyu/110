@@ -1,0 +1,8 @@
+{
+    "usingComponents": {
+        "modify-channel-head": "../component/modifyChannelHead/modifyChannelHead",
+        "modify-channel-input": "../component/myChannelInput/myChannelInput",
+        "modify-channel-select01": "../component/myChannelSelect01/myChannelSelect01"
+
+    }
+}

@@ -1,0 +1,11 @@
+<!-- pages/termsList/termsList.wxml -->
+<view style="padding-top:16rpx"></view>
+<navigator url="../termsDetails/termsDetails">
+  <terms-list-input icon="icon-xiangyou" termsListInputTit="年金保险产品保险条款"></terms-list-input>
+</navigator>
+<navigator url="../insuredKnow/insuredKnow">
+  <terms-list-input icon="icon-xiangyou" termsListInputTit="年金保险投保须知"></terms-list-input>
+</navigator>
+<navigator url="../insuredKnow/insuredKnow">
+  <terms-list-input icon="icon-xiangyou" termsListInputTit="年金保险理赔须知"></terms-list-input>
+</navigator>

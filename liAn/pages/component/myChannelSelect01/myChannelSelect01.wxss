@@ -1,0 +1,73 @@
+/* pages/component/myChannelSelect01/myChannelSelect01.wxss */
+
+@import"../../../app.wxss";
+.myChannelSelect01 {
+    /* background-color: red; */
+    width: 100vw;
+    height: 108rpx;
+    background-color: #ffffff;
+    margin: 1rpx 0;
+}
+
+.myChannelSelect01Main {
+    display: flex;
+}
+
+.myChannelSelect01Main>text:first-child {
+    display: inline-block;
+    width: 112rpx;
+    text-align: justify;
+    padding-left: 36rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    height: 108rpx;
+    line-height: 108rpx;
+}
+
+.myChannelSelect01Main>text:first-child:after {
+    content: ' ';
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    height: 0;
+}
+
+.myChannelSelect01Main>text:nth-child(2) {
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #626262;
+    line-height: 108rpx;
+    padding-left: 160rpx;
+}
+
+.myChannelSelect01Contain {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    background: #ffffff;
+}
+
+.myChannelSelect01Contain {
+    padding-left: 308rpx;
+    line-height: 108rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #626262;
+}
+
+.myChannelSelect01Main>i {
+    line-height: 108rpx;
+    font-size: 14rpx;
+    padding-left: 50rpx;
+    color: #808080;
+}
+
+.my-channel-select-hover {
+    color: rgb(235, 58, 27);
+}

@@ -1,0 +1,104 @@
+/* pages/selectProduct/selectProduct.wxss */
+
+page {
+    background-color: #F2F2F0;
+}
+
+.selectProductTabUl {
+    width: 100vw;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    border-bottom: 1rpx solid #d9d9d9;
+}
+
+.selectProductTabLi {
+    /* background-color: magenta; */
+    flex-grow: 1;
+    /* border: 1px solid royalblue; */
+    height: 88rpx;
+    box-sizing: border-box;
+    line-height: 88rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: center;
+}
+
+.selectProductTabLi01 {
+    color: #e55024;
+    /* background-color: slateblue; */
+}
+
+.selectProductTabLi02 {
+    color: #808080;
+}
+
+
+/* <!单个样式 */
+
+.selectProductTabPartbefore {
+    background-color: #fff;
+}
+
+.selectProductTabPart {
+    width: 714rpx;
+    display: flex;
+}
+
+.selectProductTabPart>.selectProductTabPartImg {
+    width: 196rpx;
+    height: 226rpx;
+    /* background-color: springgreen; */
+    position: relative;
+}
+
+.selectProductTabPart .selectProductTabPartImg01 {
+    /* background-color: violet; */
+    height: 226rpx;
+    width: 162rpx;
+    margin-left: 32rpx;
+    border-bottom: 1rpx solid #d9d9d9;
+    box-sizing: contain-box;
+}
+
+.selectProductTabPartImg01>image {
+    width: 128rpx;
+    height: 226rpx;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.selectProductTabPart>.selectProductTabPartMain {
+    flex: 1;
+    box-sizing: contain-box;
+    border-bottom: 1rpx solid #d9d9d9;
+}
+
+.selectProductTabPart>.selectProductTabPartMain .selectProductTabPartMain01 {}
+
+.selectProductTabPart>.selectProductTabPartMain .selectProductTabPartMainTit {
+    font-size: 34rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #111111;
+    line-height: 48rpx;
+    padding-top: 46rpx;
+}
+
+.selectProductTabPart>.selectProductTabPartMain .selectProductTabPartMainMiddle {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    line-height: 54rpx;
+}
+
+.selectProductTabPart>.selectProductTabPartMain .selectProductTabPartMainBottom {
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    color: #808080;
+    line-height: 36rpx;
+}

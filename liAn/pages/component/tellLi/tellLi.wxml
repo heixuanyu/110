@@ -1,0 +1,14 @@
+<!-- pages/component/tellLi/tellLi.wxml -->
+<view class="man-tell-li-module">
+    <view class="man-tell-li-module-img">img</view>
+    <view class="man-tell-li-module-contain">
+        <view class="man-tell-li-module-contain-name">
+            <text>{{name}}</text>
+            <i class="iconfont {{people=='man'? 'icon-nan':'icon-nv'}}"></i>
+        </view>
+        <view class="man-tell-li-module-contain-profession">
+            职业编号：0000000000
+            <text class="{{sbb==1? 'sbb01':'sbb02'}}">南京银行鼓楼分行</text>
+        </view>
+    </view>
+</view>

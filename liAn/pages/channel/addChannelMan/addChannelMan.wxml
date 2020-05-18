@@ -1,0 +1,20 @@
+<!-- pages/addChannelMan/addChannelMan.wxml -->
+<!-- 手写选择图片start---已经封装 -->
+<view class="manPicture">
+    <text class='star'>*</text>
+    <text class="manPicture01">人员照片</text>
+    <image bindtap="myPicture" class="myPictureChoose {{myPictureChoose01}}" src="{{tempFilePaths}}" mode="aspecFit"></image>
+    <view class="manPictureAdd" bindtap="myPicture">
+        <i class="iconfont icon-zengjia"></i>
+    </view>
+</view>
+<!-- 手写选择图片end -->
+<!-- <man-picture></man-picture> -->
+<modify-channel-input type="text" tit="人员姓名" pHolder="请填写渠道人员姓名"></modify-channel-input>
+<modify-channel-input type="text" tit="执业编号" pHolder="请填写执业编号"></modify-channel-input>
+<modify-channel-input type="text" tit="所属渠道" pHolder="请填写所属渠道"></modify-channel-input>
+<modify-channel-input type="number" tit="手机号码" pHolder="请填写手机号码"></modify-channel-input>
+<modify-channel-select01></modify-channel-select01>
+<view class="addChannelManBtn">
+<button bindtap = "addChannelManBtnClick">确定</button>
+</view>

@@ -1,0 +1,6 @@
+{
+    "usingComponents": {
+
+        "select-productinput": "../component/selectProductInput/selectProductInput"
+    }
+}

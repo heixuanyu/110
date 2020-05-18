@@ -1,0 +1,251 @@
+<!--pages/index02/index02.wxml-->
+<!--index.wxml-->
+<view class="wmp_contain">
+	<!-- 头部 -->
+	<!-- <view class="wmp_head">
+		<view>X</view>
+		<view>利安微名片</view>
+	</view> -->
+	<!-- 图片 -->
+	<view class="wmp_img">
+
+		<view class="wmp_img_title">
+			<view class="wmp_img_title_icon">
+
+				<i class="iconfont icon-fenxiang"></i>
+			</view>
+			<view class="wmp_img_title_icon">
+				<i class="iconfont icon-chufadihedidian"></i>
+			</view>
+		</view>
+
+		<view class="wmp_img_box">
+
+			<view class="wmp_img_head">
+				<view class="wmp_img_head_img"></view>
+			</view>
+			<view class="wmp_img_main">
+				<view class="wmp_img_main_person">
+					<view class="wmp_img_main_name">刘嘉玲<i class="iconfont icon-shuxie"></i></view>
+					<view class="wmp_img_main_worker">
+						<view class="wmp_sczjicon">
+							<i class="iconfont icon-icon-"></i>
+						</view>
+						<view class="wmp_sczj">销售经理</view>
+
+					</view>
+				</view>
+				<view class="wmp_img_main_doc">执业编号:00000000000</view>
+				<view class="wmp_img_main_doc">隶属公司:利安人寿保险公司</view>
+				<view class="wmp_img_main_footer">
+					<view class="wmp_img_main_phone">
+						<i class="iconfont icon-shouji"></i> 18888888888
+					</view>
+					<view class="wmp_img_main_phone">
+						<i class="iconfont icon-weixin"></i> Liujialing_0808
+					</view>
+				</view>
+			</view>
+
+
+		</view>
+
+
+	</view>
+<!-- 导航部分 -->
+
+<ul class="wmp_navBar">
+<!-- <li>
+<view class="wmp_navBar_icon">
+<i class="iconfont icon-wodetuandui"></i>
+</view>
+<text>我的团队</text>
+
+</li> -->
+<li>
+<view class="wmp_navBar_icon">
+<i class="iconfont icon-kehuguanxiguanli"></i>
+</view>
+<text>我的客户</text>
+
+</li>
+<!-- <li>
+<view class="wmp_navBar_icon">
+<i class="iconfont icon-tubiao_qudao"></i>
+</view>
+<text>我的渠道</text>
+
+</li> -->
+<li>
+<view class="wmp_navBar_icon">
+<i class="iconfont icon-gerenxinxi"></i>
+</view>
+<text>我的信息</text>
+
+</li>
+
+</ul>			
+
+
+<!-- 设置总的左右边距 -->
+<view class="main">
+	
+
+  
+<!-- 海报 -->
+<!-- poster start -->
+<view class="wmp_poster">
+
+
+<view class="wmp_poster_contain">
+<view class="wmp_poster_bac">背景</view>
+<view class="wmp_poster_main">
+<text>获客报文</text>
+<text>好文一键分享</text>
+</view>
+</view>
+
+
+<view class="wmp_poster_contain">
+	<view class="wmp_poster_minbac"></view>
+	<view class="wmp_poster_main">
+		<text>获客海报</text>
+		<text>用美图问候TA</text>
+	</view>	
+</view>
+
+</view>
+<!-- poster end -->
+
+
+
+<!-- 计划书部分 -->
+<view class="wmp_plan">
+	<view class="wmp_plan_icon">
+<i class="iconfont icon-shu"></i>
+	</view>
+	<text >我的计划书</text>
+</view>
+  
+
+<!-- 主销产品部分start -->
+<view class="wmp_pro">
+	<view class="wmp_pro_tit">
+	<view>
+		
+		<i class="iconfont icon-icon-test"></i>
+		主销产品
+	</view>
+	  <view>
+		  更多 >
+	  </view>
+		</view>
+
+<!-- 主销产品单个start -->
+<view class="wmp_part">
+<view class="wmp_part_img">
+   <view class="wmp_part_img_tit">
+	   年金险
+   </view>	 
+</view>
+<view class="wmp_part_contain">
+<view class="wmp_part_contain_tit">
+鑫惠一生综合保障计划
+</view>
+<view class="wmp_part_contain_main">
+投保年龄:  出生28天-65周岁
+</view>
+<view class="wmp_part_contain_main">
+保障期限:  终身
+</view>
+</view>
+</view>		
+<!-- 主销产品单个end -->
+<!-- 主销产品单个start -->
+<view class="wmp_part">
+<view class="wmp_part_img">
+   <view class="wmp_part_img_tit">
+	   年金险
+   </view>	 
+</view>
+<view class="wmp_part_contain">
+<view class="wmp_part_contain_tit">
+鑫惠一生综合保障计划
+</view>
+<view class="wmp_part_contain_main">
+投保年龄:  出生28天-65周岁
+</view>
+<view class="wmp_part_contain_main">
+保障期限:  终身
+</view>
+</view>
+</view>		
+<!-- 主销产品单个end -->
+<!-- 主销产品单个start -->
+<view class="wmp_part">
+<view class="wmp_part_img">
+   <view class="wmp_part_img_tit">
+	   年金险
+   </view>	 
+</view>
+<view class="wmp_part_contain">
+<view class="wmp_part_contain_tit">
+鑫惠一生综合保障计划
+</view>
+<view class="wmp_part_contain_main">
+投保年龄:  出生28天-65周岁
+</view>
+<view class="wmp_part_contain_main">
+保障期限:  终身
+</view>
+</view>
+</view>		
+<!-- 主销产品单个end -->
+
+
+
+</view>
+  
+<!-- 主销产品部分end -->
+
+<!-- 主题活动start -->
+
+<view class="act">
+<view class="wmp_pro_tit">
+	<view>
+		
+		<i class="iconfont icon-icon-test"></i>
+		主题活动
+	</view>
+	  <view>
+		  更多 >
+	  </view>
+		</view>
+
+		<!-- 轮播start -->
+	<view class="act_lunbo">
+
+
+<!--index.wxml-->
+<view class="container">
+  <swiper class="home-swiper" indicator-dots="true" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for-items="{{lunboData}}">
+      <swiper-item>
+        <image src="{{item.imgurl}}" class="slide-image" />
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+	</view>
+	<!-- 轮播end -->
+</view>
+
+
+
+
+	
+<!-- 主题活动end -->
+
+</view>
+
+</view>

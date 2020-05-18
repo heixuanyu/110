@@ -1,0 +1,75 @@
+/* pages/component/tellLi/tellLi.wxss */
+
+@import"../../../app.wxss";
+.man-tell-li-module {
+    height: 184rpx;
+    /* height: 1rpx; */
+    display: flex;
+    align-items: center;
+    border-bottom: 1rpx solid #d9d9d9;
+    /* background-color: blueviolet; */
+}
+
+.man-tell-li-module .man-tell-li-module-img {
+    background-color: cyan;
+    width: 96rpx;
+    height: 96rpx;
+    border-radius: 50%;
+    overflow: hidden;
+    background-clip: content-box;
+    padding: 36rpx;
+}
+
+.man-tell-li-module .man-tell-li-module-contain {
+    padding-left: 14rpx;
+}
+
+.man-tell-li-module .man-tell-li-module-contain .man-tell-li-module-contain-name {
+    height: 62rpx;
+    font-size: 36rpx;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #626262;
+    line-height: 50rpx;
+}
+
+.man-tell-li-module .man-tell-li-module-contain-name>text {
+    display: inline-block;
+    width: 120rpx;
+}
+
+.man-tell-li-module .man-tell-li-module-contain-name>i {
+    display: inline-block;
+    padding-left: 42rpx;
+    font-size: 42rpx;
+    width: 43rpx;
+    height: 62rpx;
+}
+
+.man-tell-li-module-contain-name>.icon-nan {
+    color: #8dc5ff;
+}
+
+.man-tell-li-module-contain-name>.icon-nv {
+    color: #ff85ad;
+}
+
+.man-tell-li-module .man-tell-li-module-contain .man-tell-li-module-contain-profession {
+    height: 34rpx;
+    font-size: 24rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #626262;
+    line-height: 34rpx;
+}
+
+.sbb01 {
+    display: inline-block;
+    padding-left: 40rpx;
+}
+
+.sbb02 {
+    display: none;
+}

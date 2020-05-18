@@ -1,0 +1,66 @@
+<view class="customerDetail">
+  <view class="customerList">
+    <view class="customerListCell">
+      <text class="customerName">客户姓名</text>
+      <text class="inputName">张三</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName">证件类型</text>
+      <text class="inputName">身份证</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName">证件号码</text>
+      <text class="inputName">000000000000000000</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName">出生日期</text>
+      <text class="inputName">1990-01-01</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName customerNameOne">性别</text>
+      <text class="inputName">男性</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName customerNameOne">职业</text>
+      <text class="inputName">01010-一般职业</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName">手机号码</text>
+      <text class="inputName">18000000000</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName">所在区域</text>
+      <text class="inputName">南京市 鼓楼区</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName">联系地址</text>
+      <text class="inputName">联系地址</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName">电子邮箱</text>
+      <text class="inputName">电子邮箱</text>
+    </view>
+    <view class="customerListCell">
+      <text class="customerName customerNameOne">备注</text>
+      <text class="inputName">备注</text>
+    </view>
+  </view>
+  
+  <view class="bottomBox">
+    <view class="bottomLeft">
+      <view class="bottomCol delete">
+        <i class="iconfont icon-shanchu"></i>
+        <text class="deleteText">删除</text>
+      </view>
+      <view class="line"></view>
+      <view class="bottomCol edit">
+        <i class="iconfont icon-xiugai"></i>
+        <text class="deleteText">修改</text>
+      </view>
+    </view>
+    <view class="bottomRight">
+    <text class="rightText">确定</text>
+    </view>
+  </view>
+
+</view>

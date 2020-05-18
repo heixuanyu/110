@@ -1,0 +1,12 @@
+<!--pages/plan/plan.wxml-->
+
+<view class="plan">
+
+
+<view class="planContain">
+<image src="../../static/img/zsbzjh.png" mode="aspectFill" class="planContain01" />
+</view>
+<view class="planContain03">
+<image src="../../static/img/qinqi.png"  class="planContain02" />
+</view>
+</view>

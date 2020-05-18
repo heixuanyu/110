@@ -1,0 +1,5 @@
+{
+    "usingComponents": {
+        "banking-outlets": "../component/bankingOutlets/bankingOutlets"
+    }
+}

@@ -1,0 +1,131 @@
+/* pages/channelDetails/channelDetails.wxss */
+
+page {
+    background: #f5f5f5;
+}
+
+.channelDetailsBank {
+    background-color: #fff;
+}
+
+.channelDetailsBank image {
+    width: 100vw;
+    height: 320rpx;
+}
+
+.channelDetailsBankImg {}
+
+.channelDetailsBankContain {
+    padding-left: 36rpx;
+}
+
+.channelDetailsBankContainTit {
+    height: 102rpx;
+    font-size: 36rpx;
+    font-family: PingFangSC, PingFangSC-Medium;
+    font-weight: 500;
+    text-align: left;
+    color: #626262;
+    line-height: 90rpx;
+}
+
+.channelDetailsBankContainMain {
+    display: flex;
+}
+
+.channelDetailsBankContainMain>text {
+    height: 80rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Light;
+    font-weight: 300;
+    text-align: left;
+    color: #626262;
+    line-height: 40rpx;
+    flex-wrap: wrap;
+    width: 574rpx;
+    padding-right: 24rpx;
+}
+
+.channelDetailsBankContainMain>i {
+    flex: 1;
+    height: 80rpx;
+    text-align: center;
+    flex-wrap: nowrap;
+    line-height: 64rpx;
+    color: #2e418d;
+    font-size: 36rpx;
+}
+
+.channelDetailsBankContainTell {
+    padding-top: 16rpx;
+}
+
+.channelDetailsBankContainTell>text:first-child {
+    padding-right: 48rpx;
+}
+
+.channelDetailsBankContainTell>text:nth-child(2) {
+    /* background-color: rosybrown; */
+}
+
+.channelDetailsBankContainTime>text:first-child {
+    padding-right: 48rpx;
+}
+
+.channelDetailsBankContainTime>text:nth-child(2) {}
+
+.channelDetailsBankContainTell,
+.channelDetailsBankContainTime {
+    height: 72rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+    color: #808080;
+    line-height: 72rpx;
+}
+
+.channelDetailsBankContainTime {
+    /* background-color: royalblue; */
+    padding-bottom: 36rpx;
+}
+
+.channelDetailsBankBtn {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.channelDetailsBankBtn>view {
+    width: 140rpx;
+    height: 64rpx;
+    /* background-color: sandybrown;
+    border: slateblue 1px solid; */
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: left;
+}
+
+.channelDetailsBankBtn>view:first-child {
+    color: #d02445;
+}
+
+.channelDetailsBankBtn>view:nth-child(2) {
+    color: #2e418d;
+}
+
+.channelDetailsBtn {
+    background-color: #fff;
+    margin-top: 32rpx;
+    font-size: 28rpx;
+    font-family: PingFangSC, PingFangSC-Regular;
+    font-weight: 400;
+    text-align: center;
+    color: #2e418d;
+    line-height: 108rpx;
+    height: 108rpx;
+}
+
+.channelDetailsBtn::after {
+    border: none;
+}

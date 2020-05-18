@@ -1,0 +1,122 @@
+page {
+  background: #F2F2F0;
+}
+.messageBox {
+  background: #FFFFFF;
+  padding:32rpx 48rpx;
+  display: flex;
+}
+.messageLeft {
+  margin-right: 52rpx;
+}
+.avatar {
+  width:136rpx;
+  height: 136rpx;
+  border-radius: 50%;
+  box-shadow: 0 4rpx 10rpx 0 #d9d9d9; 
+}
+.messageRight {
+  width:100%;
+}
+.nameBox {
+  display: flex;
+  align-items: center;
+}
+.nameLine {
+  display: flex;
+  align-items: center;
+  flex:1;
+}
+.nameText {
+  font-size: 32rpx;
+  line-height: 44rpx;
+  color:#626262;
+}
+.workName {
+  margin-left: 40rpx;
+  background: #E4D2A7;
+  font-size: 24rpx;
+  font-weight: 300;
+  line-height: 34rpx;
+  color:#fff;
+  padding:6rpx 8rpx;
+}
+.iconBox {
+  width:52rpx;
+  height:52rpx;
+  background: #E4D2A7;
+  border-radius: 50%;
+  text-align: center;
+}
+.iconStyle {
+  color:#9C6925;
+}
+.detailBox {
+  font-size: 24rpx;
+  line-height: 34rpx;
+  color:#626262;
+  font-weight: 300;
+  margin-top: 16rpx;
+}
+/* 留下个人信息部分 */
+.textBox {
+  color:#626262;
+  font-size: 32rpx;
+  line-height: 44rpx;
+  margin-top: 32rpx;
+  margin-left: 36rpx;
+  font-weight: 400;
+}
+.fillMsg {
+  background: #FFFFFF;
+  margin-top: 8rpx;
+}
+.msgList {
+  display: flex;
+  height:108rpx;
+  align-items: center;
+  padding-left: 36rpx;
+  padding-right: 36rpx;
+  border-bottom: 2rpx solid #F2F2F0;
+}
+.msgList:nth-last-child(1) {
+  border-bottom: 0;
+}
+.name {
+  color:#808080;
+  font-size: 28rpx;
+  font-weight: 400;
+}
+.placeholderStyle {
+  color:#D9D9D9;
+  font-size: 28rpx;
+  margin-left: 80rpx;
+}
+.pickerBox {
+  margin-left: 80rpx;
+  display: flex;
+  align-items: center;
+  font-size: 28rpx;
+  color:#626262;
+}
+.pickerContent {
+  display: flex;
+}
+.pickerStyle {
+  margin-right: 30rpx;
+}
+.iconStyle {
+  margin-left: 20rpx;
+}
+.submitIt {
+  background: #2e418d;
+  color:#FFFFFF;
+  font-size: 36rpx;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height:98rpx;
+  line-height: 98rpx;
+  font-weight: 400;
+}

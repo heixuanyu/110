@@ -1,0 +1,37 @@
+ <view class="nav_title">
+  <view class="nav_tab">
+    <view wx:for="{{list}}" class="{{selected==index?'hidden':'show'}}" data-index='{{index}}' bindtap="selected" wx:key="index">{{item.text}}
+      <view class="{{selected==index?'nav_underline':''}}"></view>
+    </view>
+  </view>
+  <!-- tab框显示内容 -->
+  <view wx:for="{{list}}" data-index='{{index}}' wx:key="index">
+   <view class="tab_view" wx:if="{{selected == index}}" style="height:{{winHeight - 40}}rpx">
+    <navigator class="safeList" url="../articleDetail/articleDetail" hover-class="none">
+      <view class="safeLeft">
+        <image src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589181648&di=51175de1e0d618039f98288cb32fb63d&src=http://pics3.baidu.com/feed/7a899e510fb30f246239e8443a2e7545ac4b0313.jpeg?token=2f852bc78424acfce617490f901724ba" class="avatar" mode = "scaleToFill" lazy-load="{{true}}"/> 
+      </view>
+      <view class="safeRight">
+        <view class="contentText">新个税法实施后，你的年终奖怎么缴税 这样操作到手钱最多！</view>
+        <view class="bottomBox">
+          <text class="textLeft">6000次转发</text>
+          <text class="textRight">#保险#</text>
+        </view>
+      </view>
+    </navigator>
+    <navigator class="safeList" hover-class="none">
+      <view class="safeLeft" url="../articleDetail/articleDetail">
+        <image src="https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1589181648&di=51175de1e0d618039f98288cb32fb63d&src=http://pics3.baidu.com/feed/7a899e510fb30f246239e8443a2e7545ac4b0313.jpeg?token=2f852bc78424acfce617490f901724ba" class="avatar" mode = "scaleToFill" lazy-load="{{true}}"/> 
+      </view>
+      <view class="safeRight">
+        <view class="contentText">新个税法实施后，你的年终奖怎么缴税 这样操作到手钱最多！</view>
+        <view class="bottomBox">
+          <text class="textLeft">6000次转发</text>
+          <text class="textRight">#保险#</text>
+        </view>
+      </view>
+    </navigator>
+   </view>
+  </view>
+</view>
+

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "man-tell-li": "../component/tellLi/tellLi",
+    "man-team-li":"../component/teamLi/teamLi"
+  }
+}
